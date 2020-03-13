@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/profile.png" type="image/png">
+    <title>Welcome To My Portfolio!</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://kit.fontawesome.com/97bc15ce48.js"></script>
+    <script defer src="js/bundle.js"></script>
+</head>
+<body class="scrollDisable">
+    <div id="loader">
+        <div class="lds-css ng-scope">
+            <div class="lds-gear" style="width:100%;height:100%"><div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+            <style type="text/css">@keyframes lds-gear {
+              0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+              }
+              50% {
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+              }
+              100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+              }
+            }
+            @-webkit-keyframes lds-gear {
+              0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+              }
+              50% {
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+              }
+              100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+              }
+            }
+            .lds-gear > div {
+              -webkit-transform-origin: 100px 100px;
+              transform-origin: 100px 100px;
+              -webkit-animation: lds-gear 2s infinite linear;
+              animation: lds-gear 2s infinite linear;
+              position: relative;
+            }
+            .lds-gear > div div {
+              position: absolute;
+              width: 26px;
+              height: 192px;
+              background: #ff8c00;
+              left: 100px;
+              top: 100px;
+              -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+            }
+            .lds-gear > div div:nth-child(1) {
+              width: 152px;
+              height: 152px;
+              border-radius: 50%;
+            }
+            .lds-gear > div div:nth-child(3) {
+              -webkit-transform: translate(-50%, -50%) rotate(30deg);
+              transform: translate(-50%, -50%) rotate(30deg);
+            }
+            .lds-gear > div div:nth-child(4) {
+              -webkit-transform: translate(-50%, -50%) rotate(60deg);
+              transform: translate(-50%, -50%) rotate(60deg);
+            }
+            .lds-gear > div div:nth-child(5) {
+              -webkit-transform: translate(-50%, -50%) rotate(90deg);
+              transform: translate(-50%, -50%) rotate(90deg);
+            }
+            .lds-gear > div div:nth-child(6) {
+              -webkit-transform: translate(-50%, -50%) rotate(120deg);
+              transform: translate(-50%, -50%) rotate(120deg);
+            }
+            .lds-gear > div div:nth-child(7) {
+              -webkit-transform: translate(-50%, -50%) rotate(150deg);
+              transform: translate(-50%, -50%) rotate(150deg);
+            }
+            .lds-gear > div div:nth-child(8) {
+              width: 80px;
+              height: 80px;
+              background: #fff;
+              border-radius: 50%;
+            }
+            .lds-gear {
+              width: 100px !important;
+              height: 100px !important;
+              -webkit-transform: translate(-50px, -50px) scale(0.5) translate(50px, 50px);
+              transform: translate(-50px, -50px) scale(0.5) translate(50px, 50px);
+            }
+            </style></div>
+    </div>
+    <ul id="siteNavigation">
+        <li><a href="#S1">Home</a></li>
+        <li><a href="#S2">Skills</a></li>
+        <li><a href="#S3">Projects</a></li>
+        <li><a href="#S4">Contact</a></li>
+    </ul>
+    <div id="S1" class="section">
+        <div class="navbar">
+            <div class="left">
+                <a id="conMe" href="#S4"><i class="fas fa-comment"></i>Contact me</a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/virtualzeth/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/virtualzeth" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                    <li><img src="img/navLine.png" alt=""></li>
+                    <li><p id="nr1">01</p></li>
+                </ul>
+            </div>
+        </div>
+        <img class="illu" id="profileBG" src="img/profileBG.png">
+        <img id="profileImg" src="img/profile.png">
+        <div class="textBox">
+            <h1 class="cHeader">Anders Jorgensen</h1>
+            <p class="cBody">Hi, my name is Anders Jorgensen.<br>I am a <a href="#S2">Front-end Developer.</a><br>How can I help you?</p>
+        </div>
+        <a class="angleLink" href="#S2"><i class="angleDown fas fa-angle-down"></i></a>
+    </div>
+    <div id="S2" class="section">
+        <div class="navbar">
+            <div class="right">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/virtualzeth/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/virtualzeth" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                    <li><img src="img/navLine.png" alt=""></li>
+                    <li><p id="nr2">02</p></li>
+                </ul>
+            </div>
+        </div>
+        <img class="illu" src="img/skillsBG2.png" id="S2-bg">
+        <div class="skills">
+            <img src="img/skillsBG.png" id="mobile-S2-bg">
+            <h1 class="cHeader">Skills</h1>
+            <div class="cBody">
+                <img src="img/html5-brands.png">
+                <img src="img/css3-alt-brands.png">
+                <img src="img/js-brands.png">
+                <img src="img/sass-brands.png">
+                <img src="img/Adobe_XD_CC_icon.png">
+                <img src="img/Adobe_Photoshop_CC_icon.png">
+                <img src="img/git-alt-brands.png">
+            </div>
+        </div>
+        <a class="angleLink" href="#S3"><i class="angleDown fas fa-angle-down"></i></a>
+    </div>
+    <div id="S3" class="section">
+        <div class="navbar">
+            <div class="right">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/virtualzeth/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/virtualzeth" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                    <li><img src="img/navLine.png" alt=""></li>
+                    <li><p id="nr3">03</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="projectSection" id="PS">
+            <div class="project" id="P1">
+                <img class="illu" src="img/spike.png" class="spike" id="spike1">
+                <img class="illu" src="img/spike.png" class="spike" id="spike2">
+                <h1>My Portfolio Application!</h1>
+                <img class="projectImg" src="img/projectImg1.PNG">
+                <div class="projectUI">
+                    <a class="view" href="#PS">View Project</a>
+                    <ul>
+                        <li><a href="#PS"><i class="fab fa-youtube-square"></i></a></li>
+                        <li><a href="https://github.com/virtualzeth/MyPortfolioApplication" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project" id="P2">
+                <img class="illu" src="img/spike.png" class="spike" id="spike1">
+                <img class="illu" src="img/spike.png" class="spike" id="spike2">
+                <h1>Second application coming soon!</h1>
+                <img class="projectImg" src="img/projectImgComingSoon.png">
+                <div class="projectUI">
+                    <a class="view" href="#PS">View Project</a>
+                    <ul>
+                        <li><a href="#PS"><i class="fab fa-youtube-square"></i></a></li>
+                        <li><a href="#PS"><i class="fab fa-github-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a class="angleLink" href="#S4"><i class="angleDown fas fa-angle-down"></i></a>
+    </div>
+    <div id="S4" class="section">
+        <img class="illu" src="img/comments-solid-color.png" id="commentColor">
+        <img class="illu" src="img/comments-solid.png" id="commentGray">
+        <div class="navbar">
+            <div class="right">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/virtualzeth/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/virtualzeth" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                    <li><img src="img/navLine.png"></li>
+                    <li><p id="nr4">04</p></li>
+                </ul>
+            </div>
+        </div>
+        <h1 class="cHeader">Contact me</h1>
+        <form action="inc/contact.inc.php" method="POST">
+            <ul>
+                <li id="iFlex"><input required name="qName" type="text" placeholder="Enter your full name"></li>
+                <li id="iFlex"><input required name="qMail" type="email" placeholder="Enter your email address"></li>
+                <li><textarea required name="qMsg" placeholder="Enter your message"></textarea></li>
+                <li><button name="qSub" type="submit">Send</button></li>
+            </ul>
+        </form>
+    </div>
+    <div id="footer">
+
+    </div>
+</body>
+</html>
